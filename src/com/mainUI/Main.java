@@ -12,7 +12,7 @@ public class Main {
 	 
 	 static MovieService service = new MovieService();
 	public static void main(String[] args) throws SQLException {
-		
+		// this application is only for booking and canceling movie tickets
 		while(true)
 		{
 			Scanner sc = new Scanner(System.in);
